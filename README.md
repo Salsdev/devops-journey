@@ -51,7 +51,7 @@ I signed up for AWS Free Tier and set up the AWS Management Console.
 I explored key services such as EC2, IAM, and S3.  
 Below is the screenshot of the AWS Console:
 
-![AWS Console](./screenshots/aws-console.png)
+![AWS Console](./screenshots/aws-console.jpg)
 
 ---
 
