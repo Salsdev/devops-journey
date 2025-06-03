@@ -8,48 +8,55 @@ Welcome to my first DevOps mini-project! This repository documents how I set up 
 
 ### 1. 🖥️ Visual Studio Code Installation & Setup
 
-I installed Visual Studio Code and configured it for development.  
-This includes setting up extensions such as GitHub Copilot, Docker, and Remote - WSL.  
+I installed Visual Studio Code and configured it for development.   
 Below is the screenshot of my Visual Studio Code setup:
 
 ![Visual Studio Code](./screenshots/vscode.png)
 
 ---
 
-### 2. 📦 VirtualBox Installation
+### 2. 📦 VirtualBox Installation Confirmation
 
-I installed Oracle VirtualBox to run a virtualized Ubuntu environment.  
-Below is the screenshot showing VirtualBox installed and configured:
+I installed Oracle VirtualBox to create a virtualized environment.  
+Here is the confirmation screenshot showing the VirtualBox Manager welcome screen:
 
-![VirtualBox](./screenshots/virtualbox.png)
+![VirtualBox Manager](./screenshots/virtualbox-confirmation.png)
 
 ---
 
 ### 3. 🐧 Ubuntu Installation on VirtualBox
 
 I downloaded Ubuntu (20.04 LTS), created a virtual machine in VirtualBox, and installed Ubuntu.  
-I also performed basic system updates after the installation.  
-See the screenshot below for the Ubuntu setup inside VirtualBox:
+Below is the screenshot showing the Ubuntu login prompt inside VirtualBox, confirming a successful installation:
 
-![Ubuntu Installation](./screenshots/ubuntu-installation.png)
+![Ubuntu Login](./screenshots/ubuntu-login.png)
 
 ---
 
-### 4. 🐙 GitHub Account Setup
+### 4. 🐙 Git Installation Confirmation
+
+I installed Git and verified it by running `git --version` in the terminal.  
+Here is the terminal output confirming the Git installation:
+
+![Git Installation Confirmation](./screenshots/git-installation.png)
+
+---
+
+### 5. 🐙 GitHub Account Setup
 
 I created and configured my GitHub account.  
 This included generating SSH keys, connecting Git to GitHub, and initializing my project repo.  
-Here is a screenshot of the GitHub setup:
+Here is a screenshot of the GitHub dashboard:
 
 ![GitHub Setup](./screenshots/github-setup.png)
 
 ---
 
-### 5. ☁️ AWS Management Console Setup
+### 6. ☁️ AWS Management Console Setup
 
 I signed up for AWS Free Tier and set up the AWS Management Console.  
 I explored key services such as EC2, IAM, and S3.  
-Below is the screenshot of the AWS Console:
+Below is the screenshot of the AWS Console homepage:
 
 ![AWS Console](./screenshots/aws-console.jpg)
 
@@ -59,15 +66,11 @@ Below is the screenshot of the AWS Console:
 
 Here are the steps I used to push this repository to GitHub using Git:
 
-```
+```bash
 git init
 git add .
 git commit -m "Initial commit with setup screenshots"
-git branch
 git push
-```
-
----
 
 ## 🛠 Technologies & Tools Used
 
